@@ -1,0 +1,9 @@
+.vscode
+.idea
+.DS_Store
+*.esm.json
+*.js.map
+*.log
+src/*.d.ts
+node_modules
+config.js

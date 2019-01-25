@@ -1,0 +1,18 @@
+{
+    "name": "strip-payment-backend",
+    "description": "MongoDB with Mongoose on Node.js for Stripe PaymentContext",
+    "image": "heroku/nodejs",
+    "repository": "https://github.com/maatthc/stripe-paymentcontext-backend/",
+    "keywords": ["node", "mongoose", "ODM", "API", "stripe", "PaymentContext", "nativescript"],
+    "addons": ["mongolab"],
+    "env": {
+      "STRIPE_TEST_SECRET_KEY": {
+        "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like sk_test_****)",
+        "required": true
+      },
+        "STRIPE_TEST_PUBLISHABLE_KEY": {
+          "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like pk_test_****)",
+          "required": true
+        }
+    }
+  }
